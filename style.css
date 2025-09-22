@@ -1,0 +1,38 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 100px auto;
+    transition-duration: 0.5s;
+    transition-property: border-radius ,background-color , transform;
+}
+
+.box:hover {
+    background-color: chartreuse;
+    border-radius:  50%;
+    transform: rotate(160deg);
+}
+
+nav{
+background-color: rgb(8, 14, 2);
+    color: rgb(240, 235, 235);
+    
+
+}
+.list{
+    display: flex;
+    gap: 20px;
+    list-style : none;
+}
+
+.item{
+    font-size :1.5rem;
+
+}
+
+.item:hover{
+    color: wheat;
+    background-color: crimson;
+    cursor: pointer;
+    transform: translateY(-4px);
+}
